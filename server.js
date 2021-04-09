@@ -5,7 +5,7 @@ const app = express(); //Creates an Express application
 const server = require("http").Server(app); //http는 node.js의 built-in 모듈
 const {v4:uuidv4} = require('uuid');
 app.set("view engine", "ejs");
-
+app.use(express.static('public')) // public 폴더에서 참조 가능하게 함
 // Route
 app.get("/", (req, res) => {
   res.redirect(`/${uuidv4()}`);
