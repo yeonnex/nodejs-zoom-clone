@@ -1,7 +1,7 @@
 // Back-end ( Node.js server )
-
 // require 는 모듈을 import 하는 것과 비슷한 역할을 한다.
 "use strict";
+
 const express = require("express"); //express 도 결국은 모듈이기에, 모듈을 로드한다
 const { config } = require("process");
 const app = express(); //express 서버 생성
