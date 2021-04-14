@@ -13,8 +13,6 @@
 # Stack
 - 웹 프레임워크로 Express 사용
 - ejs로 자바스크립트를 이용하여 html 생성
-- WEBRTC
-- 
 
 # Usage
 노드 모듈은 로컬에서 따로 설치해주셔야합니다. package.json 버전에 따라 자동으로 설치됩니다.
