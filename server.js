@@ -1,7 +1,11 @@
 const express = require("express");
 const app = express();
 const server = require("http").Server(app);
+
+// set the view engine to ejs
+app.set('view engine', 'ejs');
+
 app.get('/',(req, res)=>{
-    res.status(200).send('hello?')
+    res.render('room');
 })
 server.listen(3030);

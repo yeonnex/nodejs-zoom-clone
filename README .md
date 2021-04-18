@@ -26,3 +26,7 @@ server.listen(3030);
 express 를 임포트하여 app이라는 서버 객체로 만든다. http 모듈을 임포트하여 app 서버로 서버를 생성한 다음, 이 서버를 3030포트에서 요청을 listen 하게 한다. 
 
 루트 경로로 서버에 접속하면 hello? 라는 문자열을 클라이언트에게 응답하게 하였다.
+
+## specific room 생성하기
+views 라는 폴더를 만든 다음, 이 안에 room의 ui를 작성한다. 그리고, `room.ejs` 라는 파일을 생성한다. html 파일인데, embeded js 이다. 서버에서 받아온 데이터를 이 파일에서 js를 통해 다루기 쉽게 한다. 백엔드에서 프론트로 데이터를 가져옴
+`$ npm install ejs`
