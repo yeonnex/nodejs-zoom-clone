@@ -35,3 +35,6 @@ views 라는 폴더를 만든 다음, 이 안에 room의 ui를 작성한다. 그
 uuid 라는 라이브러리로 방 id를 생성해내게 할 수 있다.
 `$ npm install uuid`
 uuid 는 랜덤한 아이디를 생성해내는데, 이 생성한 id를 친구에게 주어 친구가 이 방에 들어올 수 있게 한다.
+
+## public/script.js 파일 생성
+room.ejs 에서 실행할 스크립트를 작성하기 위해 `script.js`파일을 생성한다. 
