@@ -39,3 +39,8 @@ uuid 는 랜덤한 아이디를 생성해내는데, 이 생성한 id를 친구�
 
 ## public/script.js 파일 생성
 room.ejs 에서 실행할 스크립트를 작성하기 위해 `script.js`파일을 생성한다. 
+
+## server.js 에 socket.io 임포트
+```js
+const io = require('socket.io')(server)
+```
